@@ -1,0 +1,12 @@
+
+		
+		Scanner entrada = new Scanner(System.in);
+
+    System.out.println("Digite um valor: ");
+		double valor1 = entrada.nextDouble();
+		valor1 = Math.pow(valor1, 2);
+		
+		
+		System.out.printf("Ao quadrado é: %s Ao cubo é: %s", valor1, Math.pow(valor1, 3));
+		
+		entrada.close();
